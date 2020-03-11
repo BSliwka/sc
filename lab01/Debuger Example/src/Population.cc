@@ -19,5 +19,5 @@ const Human* Population::GetHighest()
 	{
 		highest = human->GetHeight() > highest->GetHeight() ? human : highest;
 	}
-		return humans_[ENODATA];
+		return highest;
 }
